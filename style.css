@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #fff;
+}
+
+body {
+  background-image: url("images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+
+.flex {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-radius {
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grey-text {
+  color: hsl(246, 25%, 77%);
+}
+
+.blue-background {
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+}
+
+.white-text {
+  color: white;
+}
+
+.red-text {
+  color: hsl(0, 100%, 74%);
+}
+
+.form-div {
+  background-color: #fff;
+}
+
+.form-div input {
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  width: 80%;
+  margin-left: 2em;
+}
+
+.submit-btn {
+  color: #fff;
+  background-color: hsl(154, 59%, 51%);
+  width: 80%;
+  margin-left: 2em;
+  padding: 0.6em;
+}
+
+.margin-top {
+  margin-top: 1em;
+}
+
+.padding-bottom {
+  padding-bottom: 1em;
+}
+
+.margin-right {
+  margin-right: 4em;
+}
+
+.short-width {
+  margin-top: 2em;
+  max-width: 40ch;
+}
+
+.attribution {
+  text-align: center;
+}
